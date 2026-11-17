@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application | Clearview Customs</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1 class="main-title">Application</h1>
+        <p class="slogan">Where Vision Meets Perfection</p>
+
+        <p>Interested in joining the Clearview Customs Staff Team? Fill out the application below.</p>
+
+        <form class="application-form">
+
+            <label for="name">Discord Username</label>
+            <input type="text" id="name" name="name" placeholder="Enter your Discord username" required>
+
+            <label for="roblox">Roblox Username</label>
+            <input type="text" id="roblox" name="roblox" placeholder="Enter your Roblox username" required>
+
+
+            <label for="age">Age Range</label>
+            <select id="age" name="age" required>
+            <option value="" disabled selected>Select your age range</option>
+            <option value="Under 13">Under 13</option>
+            <option value="13 - 16">13 - 16</option>
+            <option value="17 - 21">17 - 21</option>
+            <option value="21+">21+</option>
+            </select>
+
+
+            <label for="reason">Why do you want to join Clearview Customs?</label>
+            <textarea id="reason" name="reason" rows="4" placeholder="Tell us why you want to join..." required></textarea>
+
+            <label for="experience">Previous Experience</label>
+            <textarea id="experience" name="experience" rows="4" placeholder="Describe any previous experience..."></textarea>
+
+            <button type="submit" class="btnrow1">Submit Application</button>
+
+        </form>
+
+        <div class="button-container">
+            <button onclick="location.href='index.html'" class="btnrow1">Home</button>
+            <button onclick="location.href='https://discord.gg/fWuGsJNYmw'" class="btnrow1">Discord Server</button>
+        </div>
+
+    </main>
+
+</body>
+</html>
